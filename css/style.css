@@ -1,0 +1,25 @@
+div p span {
+  background: chocolate;
+}
+div.abc {
+  background-color: cornflowerblue;
+}
+
+* {
+  color: crimson;
+}
+p {
+  background: chocolate;
+  color: cornflowerblue;
+}
+div {
+  background: crimson;
+  color: cyan;
+}
+
+.abc {
+  background: purple;
+}
+#demo {
+  background: saddlebrown;
+}
