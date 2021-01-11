@@ -1,10 +1,21 @@
 body {
-  /* background: url(../images/abc.jpg) no-repeat; */
-  /* this is shorthand property 
-  background-color: cornflowerblue;*/
+  /* 
+  background: url(../images/abc.jpg) no-repeat;
+  background-color: cornflowerblue;
   background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: bottom center;
   background-attachment: fixed;
+  */
+}
+div {
+  border: 10px solid transparent;
+  /* border-left-color: chocolate;
+     border-right-color: cornflowerblue;
+  border-top-color: crimson;*/
+  border-bottom-color: darkgoldenrod;
+  /* border-radius: 100%; */
+  width: 0;
+  height: 0;
 }
