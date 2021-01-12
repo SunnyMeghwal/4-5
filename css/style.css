@@ -10,12 +10,17 @@ body {
   */
 }
 div {
-  border: 10px solid transparent;
-  /* border-left-color: chocolate;
-     border-right-color: cornflowerblue;
-  border-top-color: crimson;*/
-  border-bottom-color: darkgoldenrod;
-  /* border-radius: 100%; */
-  width: 0;
-  height: 0;
+  width: 200px;
+  height: 200px;
+  border: 2px solid;
+  display: none;
+}
+/* img {
+  width: 100%;
+  outline: 5px solid yellowgreen;
+  outline-offset: 20px;
+}
+ */
+span {
+  display: block;
 }
