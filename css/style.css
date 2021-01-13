@@ -1,5 +1,5 @@
-body {
-  /* 
+/*body {
+ 
   background: url(../images/abc.jpg) no-repeat;
   background-color: cornflowerblue;
   background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
@@ -7,7 +7,7 @@ body {
   background-size: 100%;
   background-position: bottom center;
   background-attachment: fixed;
-  */
+  
 }
 div {
   width: 200px;
@@ -15,12 +15,27 @@ div {
   border: 2px solid;
   display: none;
 }
-/* img {
+ img {
   width: 100%;
   outline: 5px solid yellowgreen;
   outline-offset: 20px;
 }
- */
+
 span {
   display: block;
+} */
+
+.left {
+  float: left;
+  background-color: coral;
+}
+.right {
+  float: left;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  margin-left: 100px;
+  background-color: crimson !important;
+  padding: 20px;
 }
